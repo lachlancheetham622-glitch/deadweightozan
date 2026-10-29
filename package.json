@@ -1,0 +1,8 @@
+{
+  "name": "deadweight",
+  "version": "1.6.0",
+  "description": "Among Us style multiplayer game. Zero dependencies.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=16" }
+}
