@@ -1,9 +1,0 @@
-# One-click hosting on Render.com (free plan). See README.txt, "HOST IT ONLINE".
-services:
-  - type: web
-    name: deadweight-ozan
-    runtime: node
-    plan: free
-    buildCommand: echo "nothing to build"
-    startCommand: node server.js
-    healthCheckPath: /health
